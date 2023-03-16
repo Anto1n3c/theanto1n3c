@@ -37,8 +37,10 @@ export const banner = (args?: string[]): string => {
     ▒   ▒▒ ░░ ░░   ░ ▒░    ░      ░ ▒ ▒░  ▒ ░░ ░░   ░ ▒░ ░ ░  ░
     ░   ▒      ░   ░ ░   ░      ░ ░ ░ ▒   ▒ ░   ░   ░ ░    ░   
         ░  ░         ░              ░ ░   ░           ░    ░  ░
-                                                               v${packageJson.version}
+                       Portfolio   v${packageJson.version}
 
+${new Date().toString()}
+                     
 Type 'help' to see list of available commands.
 
 `;
