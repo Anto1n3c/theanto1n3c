@@ -31,7 +31,7 @@ export const ShellProvider: React.FC<ShellProviderProps> = ({ children }) => {
   const { theme, setTheme } = useTheme();
 
   useEffect(() => {
-    setCommand('banner');
+    setCommand('start'); //use command at the start of the pages
   }, []);
 
   useEffect(() => {
