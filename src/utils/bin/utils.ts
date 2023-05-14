@@ -22,6 +22,13 @@ export const sudo = async (args?: string[]): Promise<string> => {
   return `Permission denied: unable to run the command '${args[0]}' as root.`;
 };
 
+export const github = async (args?: string[]): Promise<string> => {
+  setTimeout(function () {
+    window.open('https://github.com/Anto1n3c');
+  }, 1000);
+  return `Redirect: you will be redirected to github`;
+};
+
 export const start = (args?: string[]): string => {
   return `
   ▄▄▄       ███▄    █ ▄▄▄█████▓ ▒█████   ██▓ ███▄    █ ▓█████ 
@@ -40,6 +47,7 @@ Welcome to Antoine Crone 19.04.5 LTS (GNU/Linux 5.10.16.3-WSL2 x86_64)
  * Root-me:        https://www.root-me.org/Anto1n3
  * Discord:        Anto1n3c#0261
  * Support:        antoine.crone@icloud.com
+ * Github :        https://github.com/Anto1n3c
 
   System information as of ${new Date().toString()}
 
