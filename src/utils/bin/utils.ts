@@ -48,6 +48,7 @@ Welcome to Antoine Crone 19.04.5 LTS (GNU/Linux 5.10.16.3-WSL2 x86_64)
  * Discord:        Anto1n3c#0261
  * Support:        antoine.crone@icloud.com
  * Github :        https://github.com/Anto1n3c
+ * Study  :        BUT informatique IUT Metz
 
   System information as of ${new Date().toString()}
 
